@@ -38,18 +38,23 @@ The analysis is based on the `snack_consumer_sensory_dataset.csv` located in the
 
 ## Environment Setup
 
-The repository includes a pre-configured Python virtual environment (`.venv`). To run the notebooks, ensure you have the following core libraries installed:
+To run the notebooks, it is recommended to use a virtual environment. You can install all necessary dependencies using the provided `requirements.txt` file:
 
-*   `pandas`
-*   `numpy`
-*   `matplotlib`
-*   `seaborn`
-*   `statsmodels`
-*   `scikit-learn`
-*   `scipy`
+1.  **Create a virtual environment:**
+    ```bash
+    python -m venv .venv
+    ```
+2.  **Activate the environment:**
+    *   Windows: `.venv\Scripts\activate`
+    *   Mac/Linux: `source .venv/bin/activate`
+3.  **Install dependencies:**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 ## Usage
 
-1.  Activate the virtual environment.
-2.  Open Jupyter Lab/Notebook.
-3.  Run the notebooks in sequential order (01 to 06) to follow the complete logic of the analysis.
+1.  **Navigate to the project directory.**
+2.  **Activate the virtual environment.**
+3.  **Launch Jupyter Lab/Notebook.**
+4.  **Execute Logic:** Run the notebooks in sequential order (`01` through `06`). Each cell in the notebooks has been annotated with a markdown description to guide you through the analysis steps and logic.
